@@ -1,1 +1,1 @@
-# Benchmarking-DNS-Server
+# Benchmarking DNS Server
