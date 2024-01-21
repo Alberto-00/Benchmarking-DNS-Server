@@ -1,3 +1,4 @@
+## Per DNS-over-UDP, DNS-over-TCP e DNS-over-TLS
 Lo script `plotA.sh` permette di generare il grafico in cui vengono mostrare le latenze delle richieste effettuate durante il benchmarking di un protocollo su tutti i server. 
 Prende in input i seguenti campi:
 - file output di dnssperf del benchmarkind di BIND;
@@ -14,3 +15,5 @@ L'esecuzione del comando `./plotA.sh tls_bench_dnsperf_BIND.txt tls_bench_dnsper
 
 **NOTA:** il file `plotA.py` verrà eseguito automaticamente da `plotA.sh`
 
+## Per DNSSEC e DNS-over-HTTPS
+Siccome per questi due protocolli si è dovuto utilizzare lo scritp [](scriptKdig.sh) non sono presenti i file di output di dnsperf ma direttamente i file con le latenze separate da virgola. Quindi in questo caso non bisogna eseguire `plotA.sh` ma si potrà eseguire direttamente il file `plotA.py` 
