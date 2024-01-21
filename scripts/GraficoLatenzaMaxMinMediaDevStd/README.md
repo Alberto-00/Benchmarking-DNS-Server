@@ -19,4 +19,4 @@ L'esecuzione del comando `./plotBarreErrori.sh tls_fileBind_dnsperf.txt tls_file
 
 ## Per DNSSEC e DNS-over-HTTPS
 
-Siccome per questi due protocolli si è dovuto utilizzare lo script `scriptKdig.sh` non sono presenti i file di output di dnsperf ma direttamente i file con le latenze separate da virgola. Quindi in questo bisogna eseguire il file `plotBarreErroriDNSSEC_HTTPS.py` con i parametri: `fileLatenzeBind.txt`, `fileLatenzePdns.txt`, `fileLatenzeTech.txt`, `TitoloGrafico`, `NomeImg.png`
+Siccome per questi due protocolli si è dovuto utilizzare lo script `scriptKdig.sh` non sono presenti i file di output di dnsperf ma direttamente i file con le latenze separate da virgola. Quindi in questo bisogna eseguire il file `plotBarreErroriDNSSEC_HTTPS.py` con i parametri: `fileLatenzeBind.txt fileLatenzePdns.txt fileLatenzeTech.txt TitoloGrafico NomeImg.png`
