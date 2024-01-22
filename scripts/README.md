@@ -6,5 +6,10 @@ In questa cartella sono presenti gli script Python e Shell utilizzati per l'anal
   - UnProtocolloTuttiServer
   - UnServerTuttiProtocolli
 - GraficoDeiBins:
+  - `creaBuckets_DNSSEC_HTTPS.py`: date le latenze di ogni richiesta permette di calcolare i bins con lo stesso calcolo di dnsperf;
+  - `creaGrafici_DNSSEC_HTTPS.sh`: dati i bins calcolati con lo script precedente permette di generare il grafico dei bins;
+  - `plotG_DNSSEC_HTTPS.py`: file utilizzato da `creaGrafici_DNSSEC_HTTPS.sh`;
+  - `create_plot.sh`: dato il file output di dnsperf permette di generare il grafico dei bins;
+  - `plot.py`: file utilizzato da `create_plot.sh`.
 - GraficoDelleLatenze:
 - GraficoLatenzaMaxMinMediaDevStd:
