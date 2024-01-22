@@ -4,7 +4,9 @@ In questa cartella sono presenti gli script Python e Shell utilizzati per l'anal
 ## Cartelle
 - CumulativeDistributionFunctions:
   - UnProtocolloTuttiServer
+    - `plotCDF2.py`: dati i file con le latenze per ogni richiesta genera le CDF di un protocollo testato su tutti i server; 
   - UnServerTuttiProtocolli
+    - `plotCDF2.py`: dati i file con le latenze per ogni richiesta genera le CDF di ogni protocollo testato su un dato server;
 - GraficoDeiBins:
   - `creaBuckets_DNSSEC_HTTPS.py`: date le latenze per ogni richiesta permette di calcolare i bins con lo stesso calcolo di dnsperf;
   - `creaGrafici_DNSSEC_HTTPS.sh`: dati i bins calcolati con lo script precedente permette di generare il grafico dei bins;
