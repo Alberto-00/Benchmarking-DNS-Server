@@ -17,5 +17,5 @@ In alternativa è possibile seguire i seguenti step:
 - Il file di zona da utilizzare è presente a questo link: []()
 - I cinque dataset utilizzati durante il benchmarkind sono presenti a questo link: []()
 ### Esecuzione del benchmarking  
-- Per i protocolli DNS-over-UDP, DNS-over-TCP e DNS-over-TLS bisogna installare [dnsperf](https://github.com/DNS-OARC/dnsperf) ed eseguire il comando ``
+- Per i protocolli DNS-over-UDP, DNS-over-TCP e DNS-over-TLS bisogna installare [dnsperf](https://github.com/DNS-OARC/dnsperf) ed eseguire il comando `dnsperf -O verbose-interval-stats -O latency-histogram -m <protocollo> -s <ipServer> -d <datasetBenchmark> -v`
     
