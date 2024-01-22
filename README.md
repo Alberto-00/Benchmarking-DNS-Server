@@ -69,7 +69,10 @@ Successivamente, i file ottenuti da `dnsperf` e `scriptKdig.sh` sono stati dati 
 ](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Comparisons) per DNS-over-TLS e in [/Results/One protocol on all servers/UDP
 /Comparisons/
 ](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Comparisons) per DNS-over-UDP.
-  
+### Un server tutti i protocolli
+In questo caso si è ritenuto utile calcolare solo le CDF, quindi a partire dai file ottenuti da `dnsperf` e `scriptKdig.sh` si è eseguito lo script [/scripts/CumulativeDistributionFunctions
+/UnServerTuttiProtocolli/plotCDF2.py](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/CumulativeDistributionFunctions/UnServerTuttiProtocolli) ottenendo i grafici presenti nella cartella [/Results/One server with every protocol
+/Cumulative Distribution Function (CDF)/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20server%20with%20every%20protocol/Cumulative%20Distribution%20Function%20(CDF))
 # Analisi dei risultati
 Per effettuare il pre-processing, analizzare e visualizzare i dati ottenuti da `dnsperf` e `scriptKdig.sh` è possibile utilizzare
 
