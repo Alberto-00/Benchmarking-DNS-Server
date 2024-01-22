@@ -60,15 +60,12 @@ In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
 - DNS-over-HTTPS su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/HTTPS
 /Technitium/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/HTTPS/Technitium)
 
-Successivamente, i file ottenuti da `dnsperf` e `scriptKdig.sh` sono stati dati in input agli script descritti nella cartella [scripts](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts) per generare anche il grafico delle latenze, le CDF e il grafico a barre per latenza massima, minima, media e deviazione standard. Questi grafici si trovano in [/Results/One protocol on all servers/HTTPS
-/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/HTTPS/Comparisons) per DNS-over-HTTPS, in [/Results/One protocol on all servers/DNSSEC
-/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Comparisons) per DNSSEC, in [/Results/One protocol on all servers/TCP
-/Comparisons/
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Comparisons) per DNS-over-TCP, in [/Results/One protocol on all servers/TLS
-/Comparisons/
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Comparisons) per DNS-over-TLS e in [/Results/One protocol on all servers/UDP
-/Comparisons/
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Comparisons) per DNS-over-UDP.
+Successivamente, i file ottenuti da `dnsperf` e `scriptKdig.sh` sono stati dati in input agli script descritti nella cartella [scripts](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts) per generare anche il grafico delle latenze, le CDF e il grafico a barre per latenza massima, minima, media e deviazione standard. Questi grafici si trovano in:
+- [/Results/One protocol on all servers/HTTPS/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/HTTPS/Comparisons) per DNS-over-HTTPS
+- [/Results/One protocol on all servers/DNSSEC/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Comparisons) per DNSSEC
+- [/Results/One protocol on all servers/TCP/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Comparisons) per DNS-over-TCP
+- [/Results/One protocol on all servers/TLS/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Comparisons) per DNS-over-TLS
+- [/Results/One protocol on all servers/UDP/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Comparisons) per DNS-over-UDP
 ### Un server tutti i protocolli
 In questo caso si è ritenuto utile calcolare solo le CDF, quindi a partire dai file ottenuti da `dnsperf` e `scriptKdig.sh` si è eseguito lo script [/scripts/CumulativeDistributionFunctions
 /UnServerTuttiProtocolli/plotCDF2.py](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/CumulativeDistributionFunctions/UnServerTuttiProtocolli) ottenendo i grafici presenti nella cartella [/Results/One server with every protocol
