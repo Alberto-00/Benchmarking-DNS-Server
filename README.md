@@ -3,7 +3,8 @@
 - [Requisiti](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Requisiti)
   - [Installazione e configurazione dei server](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Installazione-e-configurazione-dei-server)
   - [Esecuzione del benchmarking](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Esecuzione-del-benchmarking)
-  - 
+- [Analisi dei risultati](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Analisi-dei-risultati)
+
 # Introduzione
 DNS è il protocollo che permette la risoluzione di domini in indirizzi IP, di conseguenza risulta fondamentale nella navigazione web. Inoltre permette la risoluzione di indirizzi mail, liste anti-spam fino a tecniche di bilanciamento del carico. Purtoppo però la sua versione originale basata su UDP o TCP non offre nessuna garanzia di sicurezza, quindi sono nate alternative che garantiscono la confidenzialità come DNS-over-TLS e DNS-over-HTTPS e poi DNSSEC che garantisce autenticità e integrità. Tali protocolli siccome si basano su tecniche crittografiche e protocolli più ad alto livello implicano inevitabilmente un maggiore overhead protocollare, che incide sulla latenza di risoluzione e sulle capacità dei server.
 In questo progetto si è cercato di analizzare tale overhead effettuando il benchmarking dei protocolli: DNS-over-UDP, DNS-over-TCP, DNS-over-TLS, DNS-over-HTTPS e DNSSEC, ognuno dei quali è stato poi testato sui tre server: [BIND9](https://www.isc.org/bind/), [PowerDNS](https://www.powerdns.com/) e [Technitium](https://technitium.com/dns/). Le metriche prese in considerazione sono: distribuzione dei tempi di risposte delle query effettuare, latenza media, latenza massima e minima, deviazione standard, andamento delle Cumulative Distribution Functions, differenze di latenze tra i vari protocolli e i vari server e numero di query al secondo risolte dal server.
@@ -25,4 +26,4 @@ In alternativa è possibile seguire i seguenti step:
 - Per i protocolli DNS-over-UDP, DNS-over-TCP e DNS-over-TLS bisogna installare [dnsperf](https://github.com/DNS-OARC/dnsperf) ed eseguire il comando `dnsperf -O verbose-interval-stats -O latency-histogram -m <protocollo> -s <ipServer> -d <datasetBenchmark> -v`. Al posto di `<protocollo>` è possibile specificare `udp`, `tcp`, `dot` (per DNS-over-TLS), al posto di `<ipServer>` bisogna indicare l'IP del server, al posto di `<datasetBenchmark>` bisogna specificare il dataset di benchmarking.
 - Per i protocolli DNS-over-HTTPS e DNSSEC bisogna usare `scriptKdig.sh`, quindi si rimanda a [/scripts/BenchmarkingDNSSEC_HTTPS](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/BenchmarkingDNSSEC_HTTPS)
 
-
+# Analisi dei risultati
