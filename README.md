@@ -28,6 +28,7 @@ In alternativa è possibile seguire i seguenti step:
 - Per i protocolli DNS-over-HTTPS e DNSSEC bisogna usare `scriptKdig.sh`, quindi si rimanda a [/scripts/BenchmarkingDNSSEC_HTTPS](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/BenchmarkingDNSSEC_HTTPS)
 
 # Benchmarking eseguiti
+### Un protocollo tutti i server
 In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
 - DNS-over-UDP su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/UDP/BIND](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/BIND)
 - DNS-over-UDP su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/UDP/PowerDNS
@@ -63,7 +64,15 @@ In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
 - DNS-over-HTTPS su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/HTTPS
 /Technitium/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/HTTPS/Technitium)
 
-Successivamente, i file ottenuti da `dnsperf
+Successivamente, i file ottenuti da `dnsperf` e `scriptKdig.sh` sono stati dati in input agli script descritti nella cartella [scripts](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts) per generare anche il grafico delle latenze, le CDF e il grafico a barre per latenza massima, minima, media e deviazione standard. Questi grafici si trovano in [/Results/One protocol on all servers/HTTPS
+/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/HTTPS/Comparisons) per DNS-over-HTTPS, in [/Results/One protocol on all servers/DNSSEC
+/Comparisons/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Comparisons) per DNSSEC, in [/Results/One protocol on all servers/TCP
+/Comparisons/
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Comparisons) per DNS-over-TCP, in [/Results/One protocol on all servers/TLS
+/Comparisons/
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Comparisons) per DNS-over-TLS e in [/Results/One protocol on all servers/UDP
+/Comparisons/
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Comparisons) per DNS-over-UDP.
   
 # Analisi dei risultati
 Per effettuare il pre-processing, analizzare e visualizzare i dati ottenuti da `dnsperf` e `scriptKdig.sh` è possibile utilizzare
