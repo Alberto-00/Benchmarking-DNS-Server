@@ -4,7 +4,7 @@
   - [Installazione e configurazione dei server](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Installazione-e-configurazione-dei-server)
   - [Esecuzione del benchmarking](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Esecuzione-del-benchmarking)
 - [Benchmarking eseguiti](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Benchmarking-eseguiti)  
-- [Analisi dei risultati](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Analisi-dei-risultati)
+- [Risultati](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Risultati)
 - [Autori](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main#Autori)
 # Introduzione
 DNS è il protocollo che permette la risoluzione di domini in indirizzi IP, di conseguenza risulta fondamentale nella navigazione web. Inoltre permette la risoluzione di indirizzi mail, liste anti-spam fino a tecniche di bilanciamento del carico. Purtoppo però la sua versione originale basata su UDP o TCP non offre nessuna garanzia di sicurezza, quindi sono nate alternative che garantiscono la confidenzialità come DNS-over-TLS e DNS-over-HTTPS e poi DNSSEC che garantisce autenticità e integrità. Tali protocolli siccome si basano su tecniche crittografiche e protocolli più ad alto livello implicano inevitabilmente un maggiore overhead protocollare, che incide sulla latenza di risoluzione e sulle capacità dei server.
@@ -73,7 +73,9 @@ Successivamente, i file ottenuti da `dnsperf` e `scriptKdig.sh` sono stati dati 
 In questo caso si è ritenuto utile calcolare solo le CDF, quindi a partire dai file ottenuti da `dnsperf` e `scriptKdig.sh` si è eseguito lo script [/scripts/CumulativeDistributionFunctions
 /UnServerTuttiProtocolli/plotCDF2.py](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/CumulativeDistributionFunctions/UnServerTuttiProtocolli) ottenendo i grafici presenti nella cartella [/Results/One server with every protocol
 /Cumulative Distribution Function (CDF)/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20server%20with%20every%20protocol/Cumulative%20Distribution%20Function%20(CDF))
-# Analisi dei risultati
-Per effettuare il pre-processing, analizzare e visualizzare i dati ottenuti da `dnsperf` e `scriptKdig.sh` è possibile utilizzare
-
+# Risultati
+Per l'analisi e la descrizione dei risultati ottenuti si rimanda al [paper]()
 # Autori
+[Alessandro Macaro](https://github.com/mtolkien)
+[Nicolapio Gagliarde](https://github.com/GagliardeNicolapio/)
+[Alberto Montefusco](https://github.com/Alberto-00)
