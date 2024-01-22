@@ -37,12 +37,8 @@ In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
 ](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Technitium)
 - DNS-over-TCP su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP
 /BIND/dnsperf files](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/BIND)
-- DNS-over-TCP su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP/PowerDNS
-
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/PowerDNS)
-- DNS-over-TCP su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP/Technitium
-
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Technitium)
+- DNS-over-TCP su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP/PowerDNS](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/PowerDNS)
+- DNS-over-TCP su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP/Technitium](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Technitium)
 - DNS-over-TLS su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TLS/BIND
 ](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/BIND)
 - DNS-over-TLS su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TLS/PowerDNS
