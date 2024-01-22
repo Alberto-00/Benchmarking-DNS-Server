@@ -50,9 +50,12 @@ In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
 /dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Technitium/dnsperf%20files)
 
 `scriptKdig.sh` è stato usato per:
-- DNSSEC su BIND: i file ottenuti si trovano in []()
-- DNSSEC su BIND: i file ottenuti si trovano in []()
-- DNSSEC su BIND: i file ottenuti si trovano in []()
+- DNSSEC su BIND: i file ottenuti si trovano in [/Results/One protocol on all servers/DNSSEC/BIND
+/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/BIND/files)
+- DNSSEC su PowerDNS: i file ottenuti si trovano in [/Results/One protocol on all servers/DNSSEC/PowerDNS
+/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/PowerDNS/files)
+- DNSSEC su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/DNSSEC/Technitium
+/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Technitium/files)
 - DNS-over-HTTPS su BIND: i file ottenuti si trovano in []()
 - DNS-over-HTTPS su PowerDNS: i file ottenuti si trovano in []()
 - DNS-over-HTTPS su Technitium: i file ottenuti si trovano in []()
