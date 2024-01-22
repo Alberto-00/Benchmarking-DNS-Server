@@ -29,36 +29,38 @@ In alternativa è possibile seguire i seguenti step:
 
 # Benchmarking eseguiti
 In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
-- DNS-over-UDP su BIND: i file ottenuti si trovano in [/Results/One protocol on all servers/UDP/BIND/dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/BIND/dnsperf%20files)
-- DNS-over-UDP su PowerDNS: i file ottenuti si trovano in [/Results/One protocol on all servers/UDP/PowerDNS
-/dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/PowerDNS/dnsperf%20files)
-- DNS-over-UDP su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/UDP/Technitium
-/dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Technitium/dnsperf%20files)
-- DNS-over-TCP su BIND: i file ottenuti si trovano in [/Results/One protocol on all servers/TCP
-/BIND/dnsperf files](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/BIND/dnsperf%20files)
-- DNS-over-TCP su PowerDNS: i file ottenuti si trovano in [/Results/One protocol on all servers/TCP/PowerDNS
-/dnsperf files/
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/PowerDNS/dnsperf%20files)
-- DNS-over-TCP su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/TCP/Technitium
-/dnsperf files/
-](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Technitium/dnsperf%20files)
-- DNS-over-TLS su BIND: i file ottenuti si trovano in [/Results/One protocol on all servers/TLS/BIND
-/dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/BIND/dnsperf%20files)
-- DNS-over-TLS su PowerDNS: i file ottenuti si trovano in [/Results/One protocol on all servers/TLS/PowerDNS
-/dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/PowerDNS/dnsperf%20files)
-- DNS-over-TLS su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/TLS/Technitium
-/dnsperf files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Technitium/dnsperf%20files)
+- DNS-over-UDP su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/UDP/BIND](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/BIND)
+- DNS-over-UDP su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/UDP/PowerDNS
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/PowerDNS)
+- DNS-over-UDP su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/UDP/Technitium
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/UDP/Technitium)
+- DNS-over-TCP su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP
+/BIND/dnsperf files](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/BIND)
+- DNS-over-TCP su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP/PowerDNS
+
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/PowerDNS)
+- DNS-over-TCP su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TCP/Technitium
+
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TCP/Technitium)
+- DNS-over-TLS su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TLS/BIND
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/BIND)
+- DNS-over-TLS su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TLS/PowerDNS
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/PowerDNS)
+- DNS-over-TLS su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/TLS/Technitium
+](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/TLS/Technitium)
 
 `scriptKdig.sh` è stato usato per:
-- DNSSEC su BIND: i file ottenuti si trovano in [/Results/One protocol on all servers/DNSSEC/BIND
+- DNSSEC su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/DNSSEC/BIND
 /files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/BIND/files)
-- DNSSEC su PowerDNS: i file ottenuti si trovano in [/Results/One protocol on all servers/DNSSEC/PowerDNS
+- DNSSEC su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/DNSSEC/PowerDNS
 /files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/PowerDNS/files)
-- DNSSEC su Technitium: i file ottenuti si trovano in [/Results/One protocol on all servers/DNSSEC/Technitium
+- DNSSEC su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/DNSSEC/Technitium
 /files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Technitium/files)
 - DNS-over-HTTPS su BIND: i file ottenuti si trovano in []()
 - DNS-over-HTTPS su PowerDNS: i file ottenuti si trovano in []()
 - DNS-over-HTTPS su Technitium: i file ottenuti si trovano in []()
+
+Successivamente, i file ottenuti da `dnsperf
   
 # Analisi dei risultati
 Per effettuare il pre-processing, analizzare e visualizzare i dati ottenuti da `dnsperf` e `scriptKdig.sh` è possibile utilizzare
