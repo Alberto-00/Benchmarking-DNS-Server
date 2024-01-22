@@ -5,7 +5,7 @@ In questo progetto si è cercato di analizzare tale overhead effettuando il benc
 
 # Requisiti 
 ### Installazione e configurazione dei server
-Al fine di garantire la replicabilità degli esperimenti sono presenti le macchine virtuali da installare in [VirtualBox](https://www.virtualbox.org/) al seguente link: [](). In ogni VM è presente il server DNS con la configurazione di un protocollo, il file di zona, i cinque dataset utilizzati per il benchmarking e i tool per eseguire il benchmarking.
+Al fine di garantire la replicabilità degli esperimenti sono presenti le macchine virtuali da installare in [VirtualBox](https://www.virtualbox.org/) al seguente link: [Google Drive con le Virtual Machine](https://drive.google.com/drive/folders/1RAqFOcWnDRnGb0TJHqvzB3Bh9TGvJJyF?usp=sharing). In ogni VM è presente il server DNS con la configurazione di un protocollo, il file di zona, i cinque dataset utilizzati per il benchmarking e i tool per eseguire il benchmarking.
 
 In alternativa è possibile seguire i seguenti step:
 - Utilizzare [VirtualBox](https://www.virtualbox.org/) versione 7.0.4 per installare [Debian](https://www.debian.org/distrib/) versione 12 64-bit
@@ -17,6 +17,7 @@ In alternativa è possibile seguire i seguenti step:
 - Il file di zona da utilizzare è presente a questo link: []()
 - I cinque dataset utilizzati durante il benchmarkind sono presenti a questo link: []()
 ### Esecuzione del benchmarking  
-- Per i protocolli DNS-over-UDP, DNS-over-TCP e DNS-over-TLS bisogna installare [dnsperf](https://github.com/DNS-OARC/dnsperf) ed eseguire il comando `dnsperf -O verbose-interval-stats -O latency-histogram -m <protocollo> -s <ipServer> -d <datasetBenchmark> -v`
+- Per i protocolli DNS-over-UDP, DNS-over-TCP e DNS-over-TLS bisogna installare [dnsperf](https://github.com/DNS-OARC/dnsperf) ed eseguire il comando `dnsperf -O verbose-interval-stats -O latency-histogram -m <protocollo> -s <ipServer> -d <datasetBenchmark> -v`. Al posto di `<protocollo>` è possibile specificare `udp`, `tcp`, `dot` (per DNS-over-TLS), al posto di `<ipServer>` bisogna indicare l'IP del server, al posto di `<datasetBenchmark>` bisogna specificare il dataset di benchmarking.
+- Per i protocolli DNS-over-HTTPS e DNSSEC bisogna usare `scriptKdig.sh`, quindi si rimanda a [/scripts/BenchmarkingDNSSEC_HTTPS](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/BenchmarkingDNSSEC_HTTPS)
 
-[Google Drive con le Virtual Machine](https://drive.google.com/drive/folders/1RAqFOcWnDRnGb0TJHqvzB3Bh9TGvJJyF?usp=sharing)
+
