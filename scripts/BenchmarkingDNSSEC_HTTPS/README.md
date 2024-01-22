@@ -1,5 +1,5 @@
 
-`scriptKdig.sh` permette di eseguire il benchmarking dei protocolli DNSSEC e DNS-over-HTTPS.
+Lo script `scriptKdig.sh` permette di eseguire il benchmarking dei protocolli DNSSEC e DNS-over-HTTPS utilizzando automaticamente `dnssec_httpsPerf.sh`.
 
 ##### Esempio di utilizzo
 **Per HTTPS:**
