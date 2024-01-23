@@ -48,11 +48,11 @@ In questo lavoro è stato utilizzato `dnsperf` per il benchmarking di:
 
 `scriptKdig.sh` è stato usato per:
 - DNSSEC su BIND: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/DNSSEC/BIND
-/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/BIND/files)
+/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/BIND)
 - DNSSEC su PowerDNS: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/DNSSEC/PowerDNS
-/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/PowerDNS/files)
+/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/PowerDNS)
 - DNSSEC su Technitium: i file ottenuti e il grafico dei bins si trovano in [/Results/One protocol on all servers/DNSSEC/Technitium
-/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Technitium/files)
+/files/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/DNSSEC/Technitium)
 - DNS-over-HTTPS su BIND: i file ottenuti si trovano in [/Results/One protocol on all servers/HTTPS
 /BIND/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20protocol%20on%20all%20servers/HTTPS/BIND)
 - DNS-over-HTTPS su PowerDNS: i file ottenuti si trovano in [/Results/One protocol on all servers/HTTPS
