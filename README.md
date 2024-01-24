@@ -70,9 +70,13 @@ Successivamente, i file ottenuti da `dnsperf` e `scriptKdig.sh` sono stati dati 
 In questo caso si è ritenuto utile calcolare solo le CDF, quindi a partire dai file ottenuti da `dnsperf` e `scriptKdig.sh` si è eseguito lo script [/scripts/CumulativeDistributionFunctions
 /UnServerTuttiProtocolli/plotCDF2.py](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/scripts/CumulativeDistributionFunctions/UnServerTuttiProtocolli) ottenendo i grafici presenti nella cartella [/Results/One server with every protocol
 /Cumulative Distribution Function (CDF)/](https://github.com/mtolkien/Benchmarking-DNS-Server/tree/main/Results/One%20server%20with%20every%20protocol/Cumulative%20Distribution%20Function%20(CDF))
+
 # Risultati
 Per l'analisi e la descrizione dei risultati ottenuti si rimanda al [paper]()
-# Autori
-[Alessandro Macaro](https://github.com/mtolkien)
-[Nicolapio Gagliarde](https://github.com/GagliardeNicolapio/)
-[Alberto Montefusco](https://github.com/Alberto-00)
+
+# Autori & Contatti
+| Name | Description |
+| --- | --- |
+| <p dir="auto"><strong>Alberto Montefusco</strong> |<br>Developer - <a href="https://github.com/Alberto-00">Alberto-00</a></p><p dir="auto">Email - <a href="mailto:a.montefusco28@studenti.unisa.it">a.montefusco28@studenti.unisa.it</a></p><p dir="auto">LinkedIn - <a href="https://www.linkedin.com/in/alberto-montefusco">Alberto Montefusco</a></p><p dir="auto">My WebSite - <a href="https://alberto-00.github.io/">alberto-00.github.io</a></p><br>|
+| <p dir="auto"><strong>Alessandro Macaro</strong> |<br>Developer   - <a href="https://github.com/mtolkien">mtolkien</a></p><p dir="auto">Email - <a href="mailto:a.macaro@studenti.unisa.it">a.macaro@studenti.unisa.it</a></p><p dir="auto">LinkedIn - <a href="https://www.linkedin.com/in/alessandro-macaro-391b7a214/">Alessandro Macaro</a></p><br>|
+| <p dir="auto"><strong>Nicolapio Gagliarde</strong> |<br>Developer   - <a href="https://github.com/GagliardeNicolapio/">GagliardeNicolapio</a></p><p dir="auto">Email - <a href="mailto:n.gagliarde@studenti.unisa.it">n.gagliarde@studenti.unisa.it</a></p><p dir="auto">LinkedIn - <a href="https://www.linkedin.com/in/nicolapio-gagliarde-75209018b/">Nicolapio Gagliarde</a></p><br>|
