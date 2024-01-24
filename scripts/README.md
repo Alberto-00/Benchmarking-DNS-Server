@@ -4,7 +4,19 @@ In questa cartella sono presenti gli script Python e Shell utilizzati per l'anal
 ## Cartelle
 - CumulativeDistributionFunctions:
   - UnProtocolloTuttiServer
+    - `plotCDF2.py`: dati i file con le latenze per ogni richiesta genera le CDF di un protocollo testato su tutti i server; 
   - UnServerTuttiProtocolli
+    - `plotCDF2.py`: dati i file con le latenze per ogni richiesta genera le CDF di ogni protocollo testato su un dato server;
 - GraficoDeiBins:
+  - `creaBuckets_DNSSEC_HTTPS.py`: date le latenze per ogni richiesta permette di calcolare i bins con lo stesso calcolo di dnsperf;
+  - `creaGrafici_DNSSEC_HTTPS.sh`: dati i bins calcolati con lo script precedente permette di generare il grafico dei bins;
+  - `plotG_DNSSEC_HTTPS.py`: file utilizzato da `creaGrafici_DNSSEC_HTTPS.sh`;
+  - `create_plot.sh`: dato il file output di dnsperf permette di generare il grafico dei bins;
+  - `plot.py`: file utilizzato da `create_plot.sh`.
 - GraficoDelleLatenze:
+  - `plotA.sh`: date le latenze per ogni richiesta permette di generare il grafico delle latenze;
+  - `plotA.py`: file utilizzato da `plotA.sh`.
 - GraficoLatenzaMaxMinMediaDevStd:
+  - `plotBarreErrori.sh`: dati i file di output di dnsperf permette di generare un grafico a barre per la latenza minima, massima, media e deviazione standard;
+  - `plotBarreErrori2.py`: file utilizzato da `plotBarreErrori.sh`;
+  - `plotBarreErroriDNSSEC_HTTPS.py`: dati i file delle latenze di ogni richiesta permette di generare un grafico a barre per la latenza minima, massima, media e deviazione standard.
